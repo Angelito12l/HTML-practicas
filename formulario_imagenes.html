@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario colores con Imagen</title>
+</head>
+<body>
+    <form action="resultados_colores.html" method="get" enctype="multipart/form-data">
+        <label for="nombre">Nombre de la persona:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="color">Tipo de color que te gustaria aprender</label>
+        <select id="color" name="color">
+            <option value="primarios">Primarios</option>
+            <option value="secundarios">Secundarios</option>
+        </select><br><br>
+
+        <label for="imagen">Subir imagen:</label>
+        <input type="file" id="imagen" name="imagen"><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
